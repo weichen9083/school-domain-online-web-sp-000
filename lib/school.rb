@@ -22,8 +22,8 @@ class School
   end 
   
   def sort
-    @roster.map do |hash| 
-      hash.sort
+    @roster.map do |key,value| 
+      key => value.sort
     end 
   end 
 end
