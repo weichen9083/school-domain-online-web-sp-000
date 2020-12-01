@@ -1,5 +1,7 @@
 # code here!
 
+require "pry"
+
 class School 
   
   attr_accessor :name, :roster 
@@ -24,6 +26,6 @@ class School
   def sort
    @roster
    end 
-
+binding.pry
   end 
 end
