@@ -23,6 +23,9 @@ class School
   end 
   
   def sort
-   @roster.sort_by{|k,v|[k,v]}.to_h
+   @roster.map do |key,value|
+     @roster[key] = value.sort
+   end 
+   @roster.sort
 end 
 end
