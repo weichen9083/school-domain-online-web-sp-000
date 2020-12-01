@@ -23,7 +23,9 @@ class School
   
   def sort
    new =  @roster.sort.to_h
-   new.m
+   new.map |key,value| 
+   @roster[key] = value.sort 
+ end 
 
   end 
 end
