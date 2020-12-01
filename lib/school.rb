@@ -23,7 +23,7 @@ class School
   
   def sort
    new =  @roster.sort.to_h
-   new.map |key,value| 
+   new.map |key, value| 
    @roster[key] = value.sort 
    end 
 
