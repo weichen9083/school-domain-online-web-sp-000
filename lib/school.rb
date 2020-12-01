@@ -13,7 +13,7 @@ class School
     if @roster.key?(key)
       @roster[key] << [name]
     else 
-      @roster[key] = name 
+      @roster[key] = [name] 
     end 
   end 
 end
