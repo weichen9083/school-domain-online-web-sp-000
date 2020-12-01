@@ -16,4 +16,7 @@ class School
       @roster[key] = [name] 
     end 
   end 
+  
+  def grade 
+  end 
 end
