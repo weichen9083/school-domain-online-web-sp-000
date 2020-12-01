@@ -16,3 +16,4 @@ class School
       @roster[key] = name 
     end 
   end 
+end
