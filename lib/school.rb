@@ -1,6 +1,5 @@
 # code here!
 
-requires "pry"
 
 class School 
   
@@ -26,6 +25,6 @@ class School
   def sort
    @roster
    end 
-binding.pry
+
   end 
 end
