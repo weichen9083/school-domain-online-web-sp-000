@@ -27,7 +27,7 @@ class School
      @roster[key] = value.sort
    end 
   
-   @roster
+   @roster.sort.to_h
    
 end 
 end
