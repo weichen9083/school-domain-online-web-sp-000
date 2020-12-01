@@ -23,7 +23,7 @@ class School
   
   def sort
    new =  @roster.sort.to_h
-   new.map 
+   new.m
 
   end 
 end
