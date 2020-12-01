@@ -1,6 +1,6 @@
 # code here!
 
-require "pry"
+requires "pry"
 
 class School 
   
