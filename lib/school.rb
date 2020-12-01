@@ -17,6 +17,6 @@ class School
     end 
   end 
   
-  def grade 
+  def grade(key)
   end 
 end
