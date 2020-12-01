@@ -24,7 +24,7 @@ class School
   
   def sort
    @roster.map do |key,value|
-     @roster[key] = value.sort.to_h
+     @roster[key] = value.sort
    end 
    
 end 
